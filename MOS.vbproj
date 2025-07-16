@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4E32010F-9707-4072-8BFC-B88AA9A21860}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MOS.My.MyApplication</StartupObject>
+    <RootNamespace>MOS</RootNamespace>
+    <AssemblyName>MOS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MOS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MOS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FontAwesome.Sharp, Version=6.6.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>packages\FontAwesome.Sharp.6.6.0\lib\net48\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.4.7\lib\net48\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Farms\frmAddCustomer.Designer.vb">
+      <DependentUpon>frmAddCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Farms\frmAddCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farms\frmAddEmployee.Designer.vb">
+      <DependentUpon>frmAddEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Farms\frmAddEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farms\FrmAddSupplier.Designer.vb">
+      <DependentUpon>FrmAddSupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Farms\FrmAddSupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farms\frmCloseSalesOrder.Designer.vb">
+      <DependentUpon>frmCloseSalesOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Farms\frmCloseSalesOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farms\frmCustomerArchive.Designer.vb">
+      <DependentUpon>frmCustomerArchive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Farms\frmCustomerArchive.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farms\frmEmployeeList.Designer.vb">
+      <DependentUpon>frmEmployeeList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Farms\frmEmployeeList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farms\frmItems.Designer.vb">
+      <DependentUpon>frmItems.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Farms\frmItems.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farms\frmLoadingPermit.Designer.vb">
+      <DependentUpon>frmLoadingPermit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Farms\frmLoadingPermit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farms\FrmManufacturingOrder.Designer.vb">
+      <DependentUpon>FrmManufacturingOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Farms\FrmManufacturingOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farms\frmSalesOrder.Designer.vb">
+      <DependentUpon>frmSalesOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Farms\frmSalesOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farms\FrmSupplierArchive.Designer.vb">
+      <DependentUpon>FrmSupplierArchive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Farms\FrmSupplierArchive.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farms\frmViewCustomers.Designer.vb">
+      <DependentUpon>frmViewCustomers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Farms\frmViewCustomers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farms\FrmViewSuppliers.Designer.vb">
+      <DependentUpon>FrmViewSuppliers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Farms\FrmViewSuppliers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farms\PopupEmployees.Designer.vb">
+      <DependentUpon>PopupEmployees.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Farms\PopupEmployees.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farms\PopupSilos.Designer.vb">
+      <DependentUpon>PopupSilos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Farms\PopupSilos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farms\PopupStockTransfers.Designer.vb">
+      <DependentUpon>PopupStockTransfers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Farms\PopupStockTransfers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farms\PopupCustomers.Designer.vb">
+      <DependentUpon>PopupCustomers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Farms\PopupCustomers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farms\PopupSalesOrders.Designer.vb">
+      <DependentUpon>PopupSalesOrders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Farms\PopupSalesOrders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farms\PopupSales.Designer.vb">
+      <DependentUpon>PopupSales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Farms\PopupSales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farms\FormMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farms\FormMain.Designer.vb">
+      <DependentUpon>FormMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farms\PopupManufacturing.Designer.vb">
+      <DependentUpon>PopupManufacturing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Farms\PopupManufacturing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farms\PopupSuppliers.Designer.vb">
+      <DependentUpon>PopupSuppliers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Farms\PopupSuppliers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Farms\frmAddCustomer.resx">
+      <DependentUpon>frmAddCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farms\frmAddEmployee.resx">
+      <DependentUpon>frmAddEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farms\FrmAddSupplier.resx">
+      <DependentUpon>FrmAddSupplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farms\frmCloseSalesOrder.resx">
+      <DependentUpon>frmCloseSalesOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farms\frmCustomerArchive.resx">
+      <DependentUpon>frmCustomerArchive.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farms\frmEmployeeList.resx">
+      <DependentUpon>frmEmployeeList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farms\frmItems.resx">
+      <DependentUpon>frmItems.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farms\frmLoadingPermit.resx">
+      <DependentUpon>frmLoadingPermit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farms\FrmManufacturingOrder.resx">
+      <DependentUpon>FrmManufacturingOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farms\frmSalesOrder.resx">
+      <DependentUpon>frmSalesOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farms\FrmSupplierArchive.resx">
+      <DependentUpon>FrmSupplierArchive.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farms\frmViewCustomers.resx">
+      <DependentUpon>frmViewCustomers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farms\FrmViewSuppliers.resx">
+      <DependentUpon>FrmViewSuppliers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farms\PopupEmployees.resx">
+      <DependentUpon>PopupEmployees.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farms\PopupSilos.resx">
+      <DependentUpon>PopupSilos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farms\PopupStockTransfers.resx">
+      <DependentUpon>PopupStockTransfers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farms\PopupCustomers.resx">
+      <DependentUpon>PopupCustomers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farms\PopupSalesOrders.resx">
+      <DependentUpon>PopupSalesOrders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farms\PopupSales.resx">
+      <DependentUpon>PopupSales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farms\FormMain.resx">
+      <DependentUpon>FormMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farms\PopupManufacturing.resx">
+      <DependentUpon>PopupManufacturing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farms\PopupSuppliers.resx">
+      <DependentUpon>PopupSuppliers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Resources\1 %2816%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\12.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\222.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\2222222222.png" />
+    <Content Include="Resources\333.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\444.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\555.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Actions-user-group-new-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Action_Security_ChangePassword_32x32.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Activate.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\add stock.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Apply_16x16.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\background screen.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\basket-full-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Billing-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Billing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Button-Close-icon %281%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Button-Delete-icon1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Button-Delete-icon11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\cancel %286%29.png" />
+    <None Include="Resources\cancel %285%29.png" />
+    <None Include="Resources\cancel %284%29.png" />
+    <None Include="Resources\cancel %283%29.png" />
+    <None Include="Resources\cancel %282%29.png" />
+    <None Include="Resources\cancel %281%29.png" />
+    <Content Include="Resources\cancel-512.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\cancel.png" />
+    <None Include="Resources\Checkmark_28px.png" />
+    <Content Include="Resources\Close_32x32.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Company1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\customer-review.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\customer-service.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Database-Active-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Database-Active-icon1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Database.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\document-autosave.png" />
+    <Content Include="Resources\edit-file-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Entypo_d83d%280%29_512.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Entypo_e731%280%29_512.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Error_28px.png" />
+    <Content Include="Resources\Excel-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\fevicon.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\file-conversion %282%29.png" />
+    <None Include="Resources\file-conversion %281%29.png" />
+    <None Include="Resources\file-conversion.png" />
+    <Content Include="Resources\find customer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\hiring.png" />
+    <Content Include="Resources\Hotels_B-512.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\icons8_Add_List_100px.png" />
+    <None Include="Resources\icons8_Add_Property_50px.png" />
+    <None Include="Resources\icons8_Add_Property_100px.png" />
+    <None Include="Resources\icons8_Bar_Chart_100px.png" />
+    <None Include="Resources\icons8_Close_Window_96px_1.png" />
+    <None Include="Resources\icons8_Combo_Chart_100px.png" />
+    <None Include="Resources\icons8_Data_Backup_100px.png" />
+    <None Include="Resources\icons8_Database_Export_100px.png" />
+    <None Include="Resources\icons8_Delete_Table_100px.png" />
+    <None Include="Resources\icons8_Delete_User_Male_100px.png" />
+    <None Include="Resources\icons8_Down_Right_96px.png" />
+    <None Include="Resources\icons8_Edit_Property_100px.png" />
+    <None Include="Resources\icons8_Edit_Property_100px1.png" />
+    <None Include="Resources\icons8_Envelope_48px.png" />
+    <None Include="Resources\icons8_Facebook_Messenger_48px.png" />
+    <None Include="Resources\icons8_Google_Web_Search_48px.png" />
+    <None Include="Resources\icons8_Money_Bag_100px.png" />
+    <None Include="Resources\icons8_Print_50px.png" />
+    <None Include="Resources\icons8_Print_104px.png" />
+    <None Include="Resources\icons8_Right_Up_2_96px.png" />
+    <None Include="Resources\icons8_Save_as_100px.png" />
+    <None Include="Resources\icons8_Save_as_100px1.png" />
+    <None Include="Resources\icons8_Settings_100px.png" />
+    <None Include="Resources\icons8_Up_Left_96px.png" />
+    <None Include="Resources\icons8_Up_Right_96px.png" />
+    <None Include="Resources\icons8_User_48px.png" />
+    <None Include="Resources\icons8_User_Groups_100px.png" />
+    <None Include="Resources\icons8_View_100px.png" />
+    <None Include="Resources\icons8_View_100px1.png" />
+    <None Include="Resources\icons8_Week_View_100px.png" />
+    <None Include="Resources\icons8_Xlarge_Icons_96px.png" />
+    <None Include="Resources\icons8_Year_View_100px.png" />
+    <Content Include="Resources\Inventory-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\keyboard-icon %281%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\keyboard-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\left-right %281%29.png" />
+    <None Include="Resources\left-right.png" />
+    <Content Include="Resources\llll.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\log-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Log-Out-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\login-512.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\login_icon %281%29.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\logout.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Logs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\management.png" />
+    <Content Include="Resources\Maximise-32X32.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\messages-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ModernXP-09-Keyboard-icon %281%291.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\money-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\network.png" />
+    <Content Include="Resources\new customers.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\packages %282%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\payment-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\person-icon.png" />
+    <Content Include="Resources\photo.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\printer %283%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\product-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\product-sales-report-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Product.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Programming-Minimize-Window-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\quotation 256.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\record_512.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\report-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\reports.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\reports1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Reset2_32x32.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\sale-tag.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\search invoice.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\service 256.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\splash.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\stock in icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Stocks-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Summary.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\supplier %283%29.png" />
+    <None Include="Resources\supplier %282%29.png" />
+    <None Include="Resources\supplier %281%29.png" />
+    <Content Include="Resources\supplier.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\table-cells %281%29.png" />
+    <None Include="Resources\table-cells.png" />
+    <Content Include="Resources\Untitled-.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Untitled-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\user regestration.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\User-Group-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\User-Interface-Restore-Window-icon %281%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Users-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Utilities-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Voucher.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\w1-1024x576.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\warehouse_illu_01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\جودة-التقنية-PNG2.png" />
+    <Content Include="Resources\واتساب.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

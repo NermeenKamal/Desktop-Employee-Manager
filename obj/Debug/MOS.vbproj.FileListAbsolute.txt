@@ -1,0 +1,124 @@
+D:\مشروعي\MOS\bin\Debug\MOS.exe.config
+D:\مشروعي\MOS\bin\Debug\MOS.exe
+D:\مشروعي\MOS\bin\Debug\MOS.pdb
+D:\مشروعي\MOS\bin\Debug\MOS.xml
+D:\مشروعي\MOS\bin\Debug\FontAwesome.Sharp.dll
+D:\مشروعي\MOS\bin\Debug\Guna.UI2.dll
+D:\مشروعي\MOS\obj\Debug\MOS.vbproj.AssemblyReference.cache
+D:\مشروعي\MOS\obj\Debug\MOS.Resources.resources
+D:\مشروعي\MOS\obj\Debug\MOS.vbproj.GenerateResource.cache
+D:\مشروعي\MOS\obj\Debug\MOS.vbproj.CoreCompileInputs.cache
+D:\مشروعي\MOS\obj\Debug\MOS.vbproj.Up2Date
+D:\مشروعي\MOS\obj\Debug\MOS.exe
+D:\مشروعي\MOS\obj\Debug\MOS.xml
+D:\مشروعي\MOS\obj\Debug\MOS.pdb
+D:\مشروعي\MOS\bin\Debug\Resources\1 (16).png
+D:\مشروعي\MOS\bin\Debug\Resources\12.jpg
+D:\مشروعي\MOS\bin\Debug\Resources\222.png
+D:\مشروعي\MOS\bin\Debug\Resources\333.png
+D:\مشروعي\MOS\bin\Debug\Resources\444.png
+D:\مشروعي\MOS\bin\Debug\Resources\555.png
+D:\مشروعي\MOS\bin\Debug\Resources\Actions-user-group-new-icon.png
+D:\مشروعي\MOS\bin\Debug\Resources\Action_Security_ChangePassword_32x32.png
+D:\مشروعي\MOS\bin\Debug\Resources\Activate.png
+D:\مشروعي\MOS\bin\Debug\Resources\add stock.png
+D:\مشروعي\MOS\bin\Debug\Resources\Admin-icon.png
+D:\مشروعي\MOS\bin\Debug\Resources\Apply_16x16.png
+D:\مشروعي\MOS\bin\Debug\Resources\background screen.jpg
+D:\مشروعي\MOS\bin\Debug\Resources\basket-full-icon.png
+D:\مشروعي\MOS\bin\Debug\Resources\Billing-icon.png
+D:\مشروعي\MOS\bin\Debug\Resources\Billing.png
+D:\مشروعي\MOS\bin\Debug\Resources\Button-Close-icon (1).png
+D:\مشروعي\MOS\bin\Debug\Resources\Button-Delete-icon1.png
+D:\مشروعي\MOS\bin\Debug\Resources\Button-Delete-icon11.png
+D:\مشروعي\MOS\bin\Debug\Resources\cancel-512.png
+D:\مشروعي\MOS\bin\Debug\Resources\Close_32x32.png
+D:\مشروعي\MOS\bin\Debug\Resources\Company1.png
+D:\مشروعي\MOS\bin\Debug\Resources\customer-review.png
+D:\مشروعي\MOS\bin\Debug\Resources\customer-service.png
+D:\مشروعي\MOS\bin\Debug\Resources\Database-Active-icon.png
+D:\مشروعي\MOS\bin\Debug\Resources\Database-Active-icon1.png
+D:\مشروعي\MOS\bin\Debug\Resources\Database.png
+D:\مشروعي\MOS\bin\Debug\Resources\edit-file-icon.png
+D:\مشروعي\MOS\bin\Debug\Resources\Entypo_d83d(0)_512.png
+D:\مشروعي\MOS\bin\Debug\Resources\Entypo_e731(0)_512.png
+D:\مشروعي\MOS\bin\Debug\Resources\Excel-icon.png
+D:\مشروعي\MOS\bin\Debug\Resources\fevicon.jpg
+D:\مشروعي\MOS\bin\Debug\Resources\find customer.png
+D:\مشروعي\MOS\bin\Debug\Resources\Hotels_B-512.png
+D:\مشروعي\MOS\bin\Debug\Resources\Inventory-icon.png
+D:\مشروعي\MOS\bin\Debug\Resources\keyboard-icon (1).png
+D:\مشروعي\MOS\bin\Debug\Resources\keyboard-icon.png
+D:\مشروعي\MOS\bin\Debug\Resources\llll.png
+D:\مشروعي\MOS\bin\Debug\Resources\log-icon.png
+D:\مشروعي\MOS\bin\Debug\Resources\Log-Out-icon.png
+D:\مشروعي\MOS\bin\Debug\Resources\login-512.png
+D:\مشروعي\MOS\bin\Debug\Resources\login_icon (1).gif
+D:\مشروعي\MOS\bin\Debug\Resources\logout.png
+D:\مشروعي\MOS\bin\Debug\Resources\Logs.png
+D:\مشروعي\MOS\bin\Debug\Resources\Maximise-32X32.png
+D:\مشروعي\MOS\bin\Debug\Resources\messages-icon.png
+D:\مشروعي\MOS\bin\Debug\Resources\ModernXP-09-Keyboard-icon (1)1.png
+D:\مشروعي\MOS\bin\Debug\Resources\money-icon.png
+D:\مشروعي\MOS\bin\Debug\Resources\new customers.png
+D:\مشروعي\MOS\bin\Debug\Resources\packages (2).jpg
+D:\مشروعي\MOS\bin\Debug\Resources\payment-icon.png
+D:\مشروعي\MOS\bin\Debug\Resources\photo.jpg
+D:\مشروعي\MOS\bin\Debug\Resources\printer (3).png
+D:\مشروعي\MOS\bin\Debug\Resources\product-icon.png
+D:\مشروعي\MOS\bin\Debug\Resources\product-sales-report-icon.png
+D:\مشروعي\MOS\bin\Debug\Resources\Product.png
+D:\مشروعي\MOS\bin\Debug\Resources\Programming-Minimize-Window-icon.png
+D:\مشروعي\MOS\bin\Debug\Resources\quotation 256.png
+D:\مشروعي\MOS\bin\Debug\Resources\record_512.png
+D:\مشروعي\MOS\bin\Debug\Resources\report-icon.png
+D:\مشروعي\MOS\bin\Debug\Resources\reports.png
+D:\مشروعي\MOS\bin\Debug\Resources\reports1.png
+D:\مشروعي\MOS\bin\Debug\Resources\Reset2_32x32.png
+D:\مشروعي\MOS\bin\Debug\Resources\sale-tag.png
+D:\مشروعي\MOS\bin\Debug\Resources\search invoice.png
+D:\مشروعي\MOS\bin\Debug\Resources\service 256.png
+D:\مشروعي\MOS\bin\Debug\Resources\splash.png
+D:\مشروعي\MOS\bin\Debug\Resources\stock in icon.png
+D:\مشروعي\MOS\bin\Debug\Resources\Stocks-icon.png
+D:\مشروعي\MOS\bin\Debug\Resources\Summary.png
+D:\مشروعي\MOS\bin\Debug\Resources\supplier.png
+D:\مشروعي\MOS\bin\Debug\Resources\Untitled-.jpg
+D:\مشروعي\MOS\bin\Debug\Resources\Untitled-1.png
+D:\مشروعي\MOS\bin\Debug\Resources\user regestration.png
+D:\مشروعي\MOS\bin\Debug\Resources\User-Group-icon.png
+D:\مشروعي\MOS\bin\Debug\Resources\User-Interface-Restore-Window-icon (1).png
+D:\مشروعي\MOS\bin\Debug\Resources\Users-icon.png
+D:\مشروعي\MOS\bin\Debug\Resources\Utilities-icon.png
+D:\مشروعي\MOS\bin\Debug\Resources\Voucher.png
+D:\مشروعي\MOS\bin\Debug\Resources\w1-1024x576.png
+D:\مشروعي\MOS\bin\Debug\Resources\warehouse_illu_01.png
+D:\مشروعي\MOS\bin\Debug\Resources\واتساب.jpg
+D:\مشروعي\MOS\obj\Debug\MOS.exe.config
+D:\مشروعي\MOS\obj\Debug\MOS.FormMain.resources
+D:\مشروعي\MOS\obj\Debug\MOS.PopupEmployees.resources
+D:\مشروعي\MOS\obj\Debug\MOS.PopupStockTransfers.resources
+D:\مشروعي\MOS\obj\Debug\MOS.PopupCustomers.resources
+D:\مشروعي\MOS\obj\Debug\MOS.PopupSalesOrders.resources
+D:\مشروعي\MOS\obj\Debug\MOS.PopupSales.resources
+D:\مشروعي\MOS\obj\Debug\MOS.PopupManufacturing.resources
+D:\مشروعي\MOS\obj\Debug\MOS.PopupSuppliers.resources
+D:\مشروعي\MOS\obj\Debug\MOS.frmItems.resources
+D:\مشروعي\MOS\obj\Debug\MOS.PopupSilos.resources
+D:\مشروعي\MOS\obj\Debug\MOS.FrmManufacturingOrder.resources
+D:\مشروعي\MOS\obj\Debug\MOS.frmAddCustomer.resources
+D:\مشروعي\MOS\obj\Debug\MOS.frmViewCustomers.resources
+D:\مشروعي\MOS\obj\Debug\MOS.FrmAddSupplier.resources
+D:\مشروعي\MOS\obj\Debug\MOS.frmCustomerArchive.resources
+D:\مشروعي\MOS\obj\Debug\MOS.FrmSupplierArchive.resources
+D:\مشروعي\MOS\obj\Debug\MOS.FrmViewSuppliers.resources
+D:\مشروعي\MOS\obj\Debug\MOS.frmSalesOrder.resources
+D:\مشروعي\MOS\obj\Debug\MOS.frmLoadingPermit.resources
+D:\مشروعي\MOS\obj\Debug\MOS.frmCloseSalesOrder.resources
+D:\مشروعي\MOS\obj\Debug\MOS.frmAddEmployee.resources
+D:\مشروعي\MOS\obj\Debug\MOS.frmEmployeeList.resources
+D:\Desk-top\Downloads\Telegram Desktop\مشروعي\MOS\obj\Debug\MOS.vbproj.AssemblyReference.cache
+D:\Desk-top\Downloads\Telegram Desktop\مشروعي\MOS\obj\Debug\MOS.exe.config
+D:\Desk-top\Downloads\Telegram Desktop\مشروعي\MOS\obj\Debug\MOS.exe
+D:\Desk-top\Downloads\Telegram Desktop\مشروعي\MOS\obj\Debug\MOS.xml
+D:\Desk-top\Downloads\Telegram Desktop\مشروعي\MOS\obj\Debug\MOS.pdb
